@@ -8,7 +8,7 @@
         <title>Spring MVC</title>
     </head>
 
-    <body>
-        <p>${InitMessage}</p>
+    <body style="background-color: #ccff66">
+        <p style="text-align: center; font-size: 50px">${InitMessage}</p>
     </body>
 </html>
