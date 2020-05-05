@@ -5,10 +5,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Spring MVC</title>
+        <title>Index</title>
     </head>
 
     <body style="background-color: #ccff66">
         <p style="text-align: center; font-size: 50px">${InitMessage}</p>
+        
+        
+        <a href="/employee">Goto Employee page</a>
+        
     </body>
 </html>
