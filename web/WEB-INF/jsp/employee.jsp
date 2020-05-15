@@ -17,5 +17,19 @@
 
             <input type="submit"/>
         </form>
+        
+        
+        <br><br><br>
+        
+        <form method="post" action="/Spring-WEB-MVC/emp">
+            <label>Name</label>
+            <input type="text" name="ename"/>
+            
+            <label>Address</label>
+            <input type="text" name="eaddress"/>
+
+            <input type="submit"/>
+        </form>
+        
     </body>
 </html>

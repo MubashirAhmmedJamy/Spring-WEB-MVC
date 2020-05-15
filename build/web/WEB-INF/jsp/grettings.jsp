@@ -9,6 +9,8 @@
     </head>
 
     <body style="background-color: #ccff66">
+        <p style="text-align: center; font-size: 50px">${msg}</p>
         <p style="text-align: center; font-size: 50px">${InitMessage}</p>
+        <p style="text-align: center; font-size: 50px">Hello ${b.ename} you are from ${b.eaddress}</p>
     </body>
 </html>

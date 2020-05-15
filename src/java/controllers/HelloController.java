@@ -1,8 +1,10 @@
 package controllers;
 
 import java.util.Map;
+import models.Employee;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -33,6 +35,19 @@ public class HelloController {
     @RequestMapping(value = "/employee", method = RequestMethod.POST)
     public String four(ModelMap map, @RequestParam Map<String, String> reqParams){        
         map.addAttribute("InitMessage", "Hellow "+reqParams.get("ename") + " you're from "+reqParams.get("eaddress"));
+        return "grettings";
+    }
+    
+    @RequestMapping(value = "/emp", method = RequestMethod.POST)
+    public String five(ModelMap map, @ModelAttribute("b") Employee v){
+        
+        return "grettings";
+    }
+    
+    
+    @ModelAttribute
+    public String msg(ModelMap map){
+        map.addAttribute("msg", "Grettings!");
         return "grettings";
     }
 }

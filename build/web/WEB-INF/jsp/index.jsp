@@ -12,7 +12,7 @@
         <p style="text-align: center; font-size: 50px">${InitMessage}</p>
         
         
-        <a href="/employee">Goto Employee page</a>
+        <a href="/Spring-WEB-MVC/employee">Goto Employee page</a>
         
     </body>
 </html>
